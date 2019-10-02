@@ -19,3 +19,29 @@ body {
   padding: 1em;
   transition: all 250ms ease;
 }
+
+.btn-ghost:hover,
+.btn-ghost:focus {
+  background-color: rgba(180, 255, 244, .2);
+  color: #b4fff4;
+  border-color: #90ccc3;
+  transition: all 250ms ease;
+}
+
+.icon {
+  bottom: .25em;
+}
+
+.icon,
+.btn {
+  transition: all 250ms ease;
+}
+
+.btn:active {
+  top: 1em;
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
+}
